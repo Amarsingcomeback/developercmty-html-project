@@ -1,0 +1,37 @@
+
+body{
+    background-color: rgb(34, 29, 29);
+    font-size: 25px;
+    font-family: serif;
+
+}
+ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+ul li{
+    float: left;
+    width: 270px;
+    height: 40px;
+    background-color: rgb(87, 9, 160);
+    opacity: .9;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    background-color: rgb(190, 11, 11);
+}
+ul li ul li {
+    display: none;
+}
+
+ul li:hover ul li{
+    display: block;
+}
